@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticalRobot-Lib", "StatisticalRobot-Lib\StatisticalRobot-Lib.csproj", "{294D27EF-981A-4C4B-B88E-AB6236B73EF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotProject", "StatisticalRobot-LibTest\RobotProject.csproj", "{D419F98B-A42E-4FA0-844C-1A0941D42772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM64 = Debug|ARM64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Debug|ARM64.Build.0 = Debug|ARM64
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{294D27EF-981A-4C4B-B88E-AB6236B73EF0}.Release|ARM64.Build.0 = Release|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{D419F98B-A42E-4FA0-844C-1A0941D42772}.Release|ARM64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64C5AEED-420E-4DD1-97B7-AAE607DE8DF6}
+	EndGlobalSection
+EndGlobal
