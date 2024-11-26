@@ -178,10 +178,10 @@ public static class Robot {
     /// Reads the encoders on the weels
     /// </summary>
     /// <returns>The position of the weels</returns>
-    public static short[] ReadEncoders()
+    public static long[] ReadEncoders()
     {
-        return ReadUnpack(39,4,"hh")
-            .OfType<short>()
+        return ReadUnpack(39,8,"qq")
+            .OfType<long>()
             .ToArray();
     }
 
